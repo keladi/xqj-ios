@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
-options: "a605d7bbe6680b307d11214f1fad209a"
-build_time: [1515322080, 931740000]
-inputs:
-  "/Volumes/d01/test/swift/xqj-ios/XqjIos/XqjIos/Config.swift": [9223372036, 854775807]
