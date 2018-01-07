@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XqjModel"
-  s.version      = "20180107.1911.51"
-  s.summary      = "A short description of XqjIos."
+  s.version      = "20180107.2130.28"
+  s.summary      = "summary summaryv"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                这是描述
+                这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述
                    DESC
 
   s.homepage     = "https://github.com/keladi/xqj-ios.git"
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "20180107.1929.20" }
+  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "20180107.2130.28" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
