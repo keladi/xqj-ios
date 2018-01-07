@@ -1,4 +1,4 @@
-tag=`date +"%Y-%m-%d-%H-%M-%S"`
+tag=`date +"%Y%m%d%H%M%S"`
 echo $tag
 git add .
 git commit -a -m "$tag"

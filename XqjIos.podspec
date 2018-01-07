@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XqjIos"
-  s.version      = "0.0.3"
+  s.version      = "2018-01-07-19-00-11"
   s.summary      = "A short description of XqjIos."
 
   # This description is used to generate tags and improve search results.
