@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XqjIos"
-  s.version      = "2018-01-07-19-00-11"
+  s.version      = "20180107.1905.54"
   s.summary      = "A short description of XqjIos."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XqjIos", "XqjIos/**/*.{h,swift}"
+  s.source_files  = "XqjIos", "**/*.{h,swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
