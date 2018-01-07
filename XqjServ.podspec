@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XqjServ"
-  s.version      = "1.20180107.223404"
+  s.version      = "1.20180107.224045"
   s.summary      = "summary summaryv"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "1.20180107.223404" }
+  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "1.20180107.224045" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "HandyJSON", "Alamofire","Foundation"
+  s.frameworks = "HandyJSON", "Alamofire","Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

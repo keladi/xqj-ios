@@ -9,6 +9,40 @@
 /* Begin PBXBuildFile section */
 		040590B320022D460059A35C /* XqjIos.h in Headers */ = {isa = PBXBuildFile; fileRef = 040590B120022D460059A35C /* XqjIos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		040590BA20022D680059A35C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040590B920022D680059A35C /* Config.swift */; };
+		04EBB73020026B940028493F /* TixianLogIndexNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB70E20026B8E0028493F /* TixianLogIndexNetwork.swift */; };
+		04EBB73120026B940028493F /* UserLogoutNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB70F20026B8F0028493F /* UserLogoutNetwork.swift */; };
+		04EBB73220026B940028493F /* AssessDelNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71020026B8F0028493F /* AssessDelNetwork.swift */; };
+		04EBB73320026B940028493F /* TixianLogApplyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71120026B8F0028493F /* TixianLogApplyNetwork.swift */; };
+		04EBB73420026B940028493F /* TixianLogGetListNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71220026B8F0028493F /* TixianLogGetListNetwork.swift */; };
+		04EBB73520026B940028493F /* UserCenterFansListNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71320026B8F0028493F /* UserCenterFansListNetwork.swift */; };
+		04EBB73620026B940028493F /* UserRegNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71420026B8F0028493F /* UserRegNetwork.swift */; };
+		04EBB73720026B940028493F /* AuthGetNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71520026B8F0028493F /* AuthGetNetwork.swift */; };
+		04EBB73820026B940028493F /* PayPayNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71620026B8F0028493F /* PayPayNetwork.swift */; };
+		04EBB73920026B940028493F /* MsgGetListNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71720026B900028493F /* MsgGetListNetwork.swift */; };
+		04EBB73A20026B940028493F /* OrdersTouziNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71820026B900028493F /* OrdersTouziNetwork.swift */; };
+		04EBB73B20026B940028493F /* AssessDetNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71920026B900028493F /* AssessDetNetwork.swift */; };
+		04EBB73C20026B940028493F /* OrdersGetListNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71A20026B900028493F /* OrdersGetListNetwork.swift */; };
+		04EBB73D20026B940028493F /* RealNameAuthApplyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71B20026B900028493F /* RealNameAuthApplyNetwork.swift */; };
+		04EBB73E20026B940028493F /* ProductDetNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71C20026B900028493F /* ProductDetNetwork.swift */; };
+		04EBB73F20026B940028493F /* UserCenterProfileNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71D20026B900028493F /* UserCenterProfileNetwork.swift */; };
+		04EBB74020026B940028493F /* UserResetPswNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71E20026B900028493F /* UserResetPswNetwork.swift */; };
+		04EBB74120026B940028493F /* AssessGetListNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB71F20026B910028493F /* AssessGetListNetwork.swift */; };
+		04EBB74220026B940028493F /* ProductGetListNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72020026B910028493F /* ProductGetListNetwork.swift */; };
+		04EBB74320026B940028493F /* Login in Resources */ = {isa = PBXBuildFile; fileRef = 04EBB72120026B910028493F /* Login */; };
+		04EBB74420026B940028493F /* UserChkNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72220026B910028493F /* UserChkNetwork.swift */; };
+		04EBB74520026B940028493F /* AssessAssessNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72320026B910028493F /* AssessAssessNetwork.swift */; };
+		04EBB74620026B940028493F /* LoanOrderDetNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72420026B910028493F /* LoanOrderDetNetwork.swift */; };
+		04EBB74720026B940028493F /* UserFindpswNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72520026B920028493F /* UserFindpswNetwork.swift */; };
+		04EBB74820026B940028493F /* UserLoginNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72620026B920028493F /* UserLoginNetwork.swift */; };
+		04EBB74920026B940028493F /* SmsCodeSendNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72720026B920028493F /* SmsCodeSendNetwork.swift */; };
+		04EBB74A20026B940028493F /* IndexIndexNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72820026B920028493F /* IndexIndexNetwork.swift */; };
+		04EBB74B20026B940028493F /* BankCardAuthApplyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72920026B920028493F /* BankCardAuthApplyNetwork.swift */; };
+		04EBB74C20026B940028493F /* LoanOrderGetListNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72A20026B930028493F /* LoanOrderGetListNetwork.swift */; };
+		04EBB74D20026B940028493F /* OrdersTouziConfirmNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72B20026B930028493F /* OrdersTouziConfirmNetwork.swift */; };
+		04EBB74E20026B940028493F /* OrdersDetNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72C20026B930028493F /* OrdersDetNetwork.swift */; };
+		04EBB74F20026B940028493F /* ProductGetRsCountNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72D20026B930028493F /* ProductGetRsCountNetwork.swift */; };
+		04EBB75020026B940028493F /* UserCenterIndexNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72E20026B930028493F /* UserCenterIndexNetwork.swift */; };
+		04EBB75120026B940028493F /* UserCenterResetProfileNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBB72F20026B940028493F /* UserCenterResetProfileNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +50,40 @@
 		040590B120022D460059A35C /* XqjIos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XqjIos.h; sourceTree = "<group>"; };
 		040590B220022D460059A35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040590B920022D680059A35C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		04EBB70E20026B8E0028493F /* TixianLogIndexNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TixianLogIndexNetwork.swift; sourceTree = "<group>"; };
+		04EBB70F20026B8F0028493F /* UserLogoutNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLogoutNetwork.swift; sourceTree = "<group>"; };
+		04EBB71020026B8F0028493F /* AssessDelNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessDelNetwork.swift; sourceTree = "<group>"; };
+		04EBB71120026B8F0028493F /* TixianLogApplyNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TixianLogApplyNetwork.swift; sourceTree = "<group>"; };
+		04EBB71220026B8F0028493F /* TixianLogGetListNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TixianLogGetListNetwork.swift; sourceTree = "<group>"; };
+		04EBB71320026B8F0028493F /* UserCenterFansListNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterFansListNetwork.swift; sourceTree = "<group>"; };
+		04EBB71420026B8F0028493F /* UserRegNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegNetwork.swift; sourceTree = "<group>"; };
+		04EBB71520026B8F0028493F /* AuthGetNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthGetNetwork.swift; sourceTree = "<group>"; };
+		04EBB71620026B8F0028493F /* PayPayNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPayNetwork.swift; sourceTree = "<group>"; };
+		04EBB71720026B900028493F /* MsgGetListNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgGetListNetwork.swift; sourceTree = "<group>"; };
+		04EBB71820026B900028493F /* OrdersTouziNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersTouziNetwork.swift; sourceTree = "<group>"; };
+		04EBB71920026B900028493F /* AssessDetNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessDetNetwork.swift; sourceTree = "<group>"; };
+		04EBB71A20026B900028493F /* OrdersGetListNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersGetListNetwork.swift; sourceTree = "<group>"; };
+		04EBB71B20026B900028493F /* RealNameAuthApplyNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealNameAuthApplyNetwork.swift; sourceTree = "<group>"; };
+		04EBB71C20026B900028493F /* ProductDetNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetNetwork.swift; sourceTree = "<group>"; };
+		04EBB71D20026B900028493F /* UserCenterProfileNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterProfileNetwork.swift; sourceTree = "<group>"; };
+		04EBB71E20026B900028493F /* UserResetPswNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserResetPswNetwork.swift; sourceTree = "<group>"; };
+		04EBB71F20026B910028493F /* AssessGetListNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessGetListNetwork.swift; sourceTree = "<group>"; };
+		04EBB72020026B910028493F /* ProductGetListNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGetListNetwork.swift; sourceTree = "<group>"; };
+		04EBB72120026B910028493F /* Login */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Login; sourceTree = "<group>"; };
+		04EBB72220026B910028493F /* UserChkNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserChkNetwork.swift; sourceTree = "<group>"; };
+		04EBB72320026B910028493F /* AssessAssessNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessAssessNetwork.swift; sourceTree = "<group>"; };
+		04EBB72420026B910028493F /* LoanOrderDetNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanOrderDetNetwork.swift; sourceTree = "<group>"; };
+		04EBB72520026B920028493F /* UserFindpswNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFindpswNetwork.swift; sourceTree = "<group>"; };
+		04EBB72620026B920028493F /* UserLoginNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginNetwork.swift; sourceTree = "<group>"; };
+		04EBB72720026B920028493F /* SmsCodeSendNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmsCodeSendNetwork.swift; sourceTree = "<group>"; };
+		04EBB72820026B920028493F /* IndexIndexNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexIndexNetwork.swift; sourceTree = "<group>"; };
+		04EBB72920026B920028493F /* BankCardAuthApplyNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardAuthApplyNetwork.swift; sourceTree = "<group>"; };
+		04EBB72A20026B930028493F /* LoanOrderGetListNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanOrderGetListNetwork.swift; sourceTree = "<group>"; };
+		04EBB72B20026B930028493F /* OrdersTouziConfirmNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersTouziConfirmNetwork.swift; sourceTree = "<group>"; };
+		04EBB72C20026B930028493F /* OrdersDetNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersDetNetwork.swift; sourceTree = "<group>"; };
+		04EBB72D20026B930028493F /* ProductGetRsCountNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGetRsCountNetwork.swift; sourceTree = "<group>"; };
+		04EBB72E20026B930028493F /* UserCenterIndexNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterIndexNetwork.swift; sourceTree = "<group>"; };
+		04EBB72F20026B940028493F /* UserCenterResetProfileNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterResetProfileNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +116,40 @@
 		040590B020022D460059A35C /* XqjIos */ = {
 			isa = PBXGroup;
 			children = (
+				04EBB72320026B910028493F /* AssessAssessNetwork.swift */,
+				04EBB71020026B8F0028493F /* AssessDelNetwork.swift */,
+				04EBB71920026B900028493F /* AssessDetNetwork.swift */,
+				04EBB71F20026B910028493F /* AssessGetListNetwork.swift */,
+				04EBB71520026B8F0028493F /* AuthGetNetwork.swift */,
+				04EBB72920026B920028493F /* BankCardAuthApplyNetwork.swift */,
+				04EBB72820026B920028493F /* IndexIndexNetwork.swift */,
+				04EBB72420026B910028493F /* LoanOrderDetNetwork.swift */,
+				04EBB72A20026B930028493F /* LoanOrderGetListNetwork.swift */,
+				04EBB72120026B910028493F /* Login */,
+				04EBB71720026B900028493F /* MsgGetListNetwork.swift */,
+				04EBB72C20026B930028493F /* OrdersDetNetwork.swift */,
+				04EBB71A20026B900028493F /* OrdersGetListNetwork.swift */,
+				04EBB72B20026B930028493F /* OrdersTouziConfirmNetwork.swift */,
+				04EBB71820026B900028493F /* OrdersTouziNetwork.swift */,
+				04EBB71620026B8F0028493F /* PayPayNetwork.swift */,
+				04EBB71C20026B900028493F /* ProductDetNetwork.swift */,
+				04EBB72020026B910028493F /* ProductGetListNetwork.swift */,
+				04EBB72D20026B930028493F /* ProductGetRsCountNetwork.swift */,
+				04EBB71B20026B900028493F /* RealNameAuthApplyNetwork.swift */,
+				04EBB72720026B920028493F /* SmsCodeSendNetwork.swift */,
+				04EBB71120026B8F0028493F /* TixianLogApplyNetwork.swift */,
+				04EBB71220026B8F0028493F /* TixianLogGetListNetwork.swift */,
+				04EBB70E20026B8E0028493F /* TixianLogIndexNetwork.swift */,
+				04EBB71320026B8F0028493F /* UserCenterFansListNetwork.swift */,
+				04EBB72E20026B930028493F /* UserCenterIndexNetwork.swift */,
+				04EBB71D20026B900028493F /* UserCenterProfileNetwork.swift */,
+				04EBB72F20026B940028493F /* UserCenterResetProfileNetwork.swift */,
+				04EBB72220026B910028493F /* UserChkNetwork.swift */,
+				04EBB72520026B920028493F /* UserFindpswNetwork.swift */,
+				04EBB72620026B920028493F /* UserLoginNetwork.swift */,
+				04EBB70F20026B8F0028493F /* UserLogoutNetwork.swift */,
+				04EBB71420026B8F0028493F /* UserRegNetwork.swift */,
+				04EBB71E20026B900028493F /* UserResetPswNetwork.swift */,
 				040590B120022D460059A35C /* XqjIos.h */,
 				040590B220022D460059A35C /* Info.plist */,
 				040590B920022D680059A35C /* Config.swift */,
@@ -125,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EBB74320026B940028493F /* Login in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +238,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EBB73C20026B940028493F /* OrdersGetListNetwork.swift in Sources */,
+				04EBB73720026B940028493F /* AuthGetNetwork.swift in Sources */,
+				04EBB74D20026B940028493F /* OrdersTouziConfirmNetwork.swift in Sources */,
+				04EBB74520026B940028493F /* AssessAssessNetwork.swift in Sources */,
+				04EBB75120026B940028493F /* UserCenterResetProfileNetwork.swift in Sources */,
+				04EBB75020026B940028493F /* UserCenterIndexNetwork.swift in Sources */,
+				04EBB73120026B940028493F /* UserLogoutNetwork.swift in Sources */,
+				04EBB74A20026B940028493F /* IndexIndexNetwork.swift in Sources */,
+				04EBB74B20026B940028493F /* BankCardAuthApplyNetwork.swift in Sources */,
+				04EBB73B20026B940028493F /* AssessDetNetwork.swift in Sources */,
+				04EBB73820026B940028493F /* PayPayNetwork.swift in Sources */,
+				04EBB73A20026B940028493F /* OrdersTouziNetwork.swift in Sources */,
+				04EBB74820026B940028493F /* UserLoginNetwork.swift in Sources */,
+				04EBB74620026B940028493F /* LoanOrderDetNetwork.swift in Sources */,
+				04EBB74E20026B940028493F /* OrdersDetNetwork.swift in Sources */,
+				04EBB73F20026B940028493F /* UserCenterProfileNetwork.swift in Sources */,
+				04EBB73920026B940028493F /* MsgGetListNetwork.swift in Sources */,
+				04EBB74420026B940028493F /* UserChkNetwork.swift in Sources */,
+				04EBB73320026B940028493F /* TixianLogApplyNetwork.swift in Sources */,
 				040590BA20022D680059A35C /* Config.swift in Sources */,
+				04EBB74F20026B940028493F /* ProductGetRsCountNetwork.swift in Sources */,
+				04EBB74020026B940028493F /* UserResetPswNetwork.swift in Sources */,
+				04EBB73420026B940028493F /* TixianLogGetListNetwork.swift in Sources */,
+				04EBB74C20026B940028493F /* LoanOrderGetListNetwork.swift in Sources */,
+				04EBB74720026B940028493F /* UserFindpswNetwork.swift in Sources */,
+				04EBB73E20026B940028493F /* ProductDetNetwork.swift in Sources */,
+				04EBB73D20026B940028493F /* RealNameAuthApplyNetwork.swift in Sources */,
+				04EBB73520026B940028493F /* UserCenterFansListNetwork.swift in Sources */,
+				04EBB73220026B940028493F /* AssessDelNetwork.swift in Sources */,
+				04EBB74120026B940028493F /* AssessGetListNetwork.swift in Sources */,
+				04EBB74220026B940028493F /* ProductGetListNetwork.swift in Sources */,
+				04EBB74920026B940028493F /* SmsCodeSendNetwork.swift in Sources */,
+				04EBB73620026B940028493F /* UserRegNetwork.swift in Sources */,
+				04EBB73020026B940028493F /* TixianLogIndexNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
