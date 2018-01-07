@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "{{tag}}"
-  s.version      = "20180107.2145.17"
+  s.name         = "XqjModel"
+  s.version      = "{{tag}}"
   s.summary      = "summary summaryv"
 
   # This description is used to generate tags and improve search results.

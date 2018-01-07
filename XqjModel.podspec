@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "XqjModel"
+  s.name         = "20180107.2150.02"
   s.version      = "20180107.2145.17"
   s.summary      = "summary summaryv"
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "20180107.2145.17" }
+  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "20180107.2150.02" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

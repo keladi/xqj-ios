@@ -1,2 +1,2 @@
 tag=`cat v.txt`
-sed "s/{{tag}}/$tag/g" XqjModel.podspec.tpl
+sed "s/{{tag}}/$tag/g" XqjModel.podspec.tpl > XqjModel.podspec
