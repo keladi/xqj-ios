@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "20180107.1911.51" }
+  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "20180107.1929.20" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
