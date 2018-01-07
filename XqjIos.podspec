@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "XqjIos", "XqjIos/**/*.{h,swift}"
-  s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "HandyJSON", "Alamofire","Foundation"
+  # s.frameworks = "HandyJSON", "Alamofire","Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

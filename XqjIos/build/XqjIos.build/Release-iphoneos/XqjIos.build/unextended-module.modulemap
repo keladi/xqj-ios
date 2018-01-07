@@ -1,0 +1,10 @@
+framework module XqjIos {
+  umbrella header "XqjIos.h"
+
+  export *
+  module * { export * }
+}
+
+module XqjIos.__Swift {
+    exclude header "XqjIos-Swift.h"
+}
