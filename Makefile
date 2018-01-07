@@ -6,4 +6,7 @@ git_push:
 	sh new_version.sh
 replace_v:
 	sh replace_spec.sh
-new_ver:git_push replace_v pod_push
+update_repo:
+	pod setup
+	say 刷新缓存完成
+new_ver:git_push replace_v pod_push update_repo
