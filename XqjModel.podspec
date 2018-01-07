@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XqjModel"
-  s.version      = "1.20180107.220512"
+  s.version      = "1.20180107.221142"
   s.summary      = "summary summaryv"
 
   # This description is used to generate tags and improve search results.
@@ -64,11 +64,11 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios
+  #s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "8.0"
+  # s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "1.20180107.220512" }
+  s.source       = { :git => "https://github.com/keladi/xqj-ios.git", :tag => "1.20180107.221142" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
