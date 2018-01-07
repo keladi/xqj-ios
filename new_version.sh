@@ -6,3 +6,4 @@ git tag "$tag"
 git push origin --tags
 echo $tag |pbcopy
 echo $tag
+echo $tag > v.txt
